@@ -3,7 +3,6 @@ crash.log
 
 
 # data files
-*.csv
 *.xlsx
 !*.txt # include txt
 
