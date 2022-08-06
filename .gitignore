@@ -1,0 +1,22 @@
+# Crash log files
+crash.log
+
+
+# data files
+*.csv
+*.xlsx
+!*.txt # include txt
+
+
+# others
+*.DS_Store
+
+
+# cpython-37.pyc
+*.log
+*.pot
+*.pyc
+*/*/*/__pycache__/
+*/*/__pycache__/
+*/__pycache__/
+
