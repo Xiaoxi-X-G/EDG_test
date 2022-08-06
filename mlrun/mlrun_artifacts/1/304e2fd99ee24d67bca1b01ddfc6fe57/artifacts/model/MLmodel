@@ -1,0 +1,36 @@
+artifact_path: model
+flavors:
+  python_function:
+    env: conda.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    python_version: 3.8.13
+  sklearn:
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 0.23.2
+model_uuid: 6e522c415f214600803bc8d508c38f03
+run_id: 304e2fd99ee24d67bca1b01ddfc6fe57
+signature:
+  inputs: '[{"name": "num_contacts_prev", "type": "long"}, {"name": "prev_contacted",
+    "type": "long"}, {"name": "cate_call_duration", "type": "long"}, {"name": "age_bracket_18-24",
+    "type": "integer"}, {"name": "age_bracket_25-40", "type": "integer"}, {"name":
+    "age_bracket_41-60", "type": "integer"}, {"name": "age_bracket_60+", "type": "integer"},
+    {"name": "job_blue-collar", "type": "integer"}, {"name": "job_entrepreneur", "type":
+    "integer"}, {"name": "job_other", "type": "integer"}, {"name": "job_pink-collar",
+    "type": "integer"}, {"name": "job_self-employed", "type": "integer"}, {"name":
+    "job_technician", "type": "integer"}, {"name": "job_white-collar", "type": "integer"},
+    {"name": "marital_divorced", "type": "integer"}, {"name": "marital_married", "type":
+    "integer"}, {"name": "marital_single", "type": "integer"}, {"name": "marital_unknown",
+    "type": "integer"}, {"name": "education_bachelors", "type": "integer"}, {"name":
+    "education_illiterate", "type": "integer"}, {"name": "education_masters", "type":
+    "integer"}, {"name": "education_secondary", "type": "integer"}, {"name": "education_senior_secondary",
+    "type": "integer"}, {"name": "education_unknown", "type": "integer"}, {"name":
+    "has_housing_loan_no", "type": "integer"}, {"name": "has_housing_loan_unknown",
+    "type": "integer"}, {"name": "has_housing_loan_yes", "type": "integer"}, {"name":
+    "has_personal_loan_no", "type": "integer"}, {"name": "has_personal_loan_unknown",
+    "type": "integer"}, {"name": "has_personal_loan_yes", "type": "integer"}, {"name":
+    "poutcome_failure", "type": "integer"}, {"name": "poutcome_nonexistent", "type":
+    "integer"}, {"name": "poutcome_success", "type": "integer"}]'
+  outputs: '[{"type": "long"}]'
+utc_time_created: '2022-08-06 13:22:11.681615'
